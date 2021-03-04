@@ -11,7 +11,9 @@
 <body>
 <header class="main-header">
     <div class="container container--flex">
-        <h1 class="main-title"><span class="color-span">ROOM</span> DESIGN</h1>
+        <div class="box-main-title">
+            <h1 class="main-title"><span class="color-span">ROOM</span> DESIGN</h1>
+        </div>
         <nav class="main-nav">
             <span class="icon-menu" id="btn-menu"><i class="fas fa-bars"></i></span>
             <ul class="menu" id="menu">
@@ -29,13 +31,13 @@
     </div>
     </header>
     <div class="banner">
-        <div class="banner-content">
+        <div class="banner-content container">
             <h2 class="banner-content__title">01</h2>
             <p class="banner-content__txt">THIS YEAR I'VE COMPLETED MORE COMPLEX DESIGN</p>
         </div>
     </div>
     <main class="main">
-        <section class="section">
+        <section class="section container">
             <h2 class="section-title">WELCOME</h2>
             <p class="section__txt">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum vitae labore rerum velit aut, sequi error perferendis fugiat necessitatibus nemo.</p>
             <a href="" class="welcome__btn">READ MORE</a>
@@ -58,7 +60,7 @@
                 <img src="/img/img-4.jpg" alt="" class="design__img">
             </div>    
         </section>
-        <section class="section">
+        <section class="section container">
             <h3 class="section-title">WHAT PEOPLE ARE SAYING?</h3>
             <img src="img/person.jpg" alt="" class="testimonials__img">
             <p class="section__txt">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque unde ex illum error! Atque, impedit?</p>
@@ -98,7 +100,64 @@
                     </div>
             </div>
         </section>
+        <section class="newsletter">
+            <h2 class="section-title">NEWSLETTER</h2>
+            <form action="" method="POST" class="form">
+                <input type="email" placeholder="email" class="form__email">
+                <input type="submit" class="form__submit" value="subscribe">
+            </form>
+        </section>
     </main>
+    <footer class="main-footer ">
+        <div class="column column--50-25 column--right ">
+            <h2 class="footer__title">Company</h2>
+            <p class="footer__txt">"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum tempore ab blanditiis vitae qui recusanda"</p>
+            <cite class="footer__author">Ronald Due</cite>
+        </div>
+        <div class="column column--50-25">
+            <h2 class="footer__title">Tweets</h2>
+            <p class="footer__publication"><i class="fab fa-twitter"></i>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis?</p>
+            <a href="" class="footer__link">www.example.com</a>
+            <p class="footer__date">About 5 minutes</p>
+
+            <p class="footer__publication"><i class="fab fa-twitter"></i>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis?</p>
+            <a href="" class="footer__link">www.example.com</a>
+            <p class="footer__date">About 5 minutes</p>
+        </div> 
+        <div class="column column--50-25">
+            <h2 class="footer__title">Connect</h2>
+            <div class="footer__socials">
+                <div class="social__icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <a href="" class="social__link">Like us on Facebook</a>
+                </div>
+                <div class="social__icon">
+                    <i class="fab fa-twitter"></i>
+                    <a href="" class="social__link">Like us on Twitter</a>
+                </div>
+                <div class="social__icon">
+                    <i class="fab fa-google"></i>
+                    <a href="" class="social__link">Like us on Google</a>
+                </div>
+            </div>
+        </div>
+        <div class="column column--50-25">
+            <h2 class="footer__title">Contact</h2>
+            <div class="contact__icon">
+                <i class="fas fa-location-arrow"></i>
+                <p class="contact__txt">The company name</p>
+            </div>
+            <div class="contact__icon">
+                <i class="fas fa-phone"></i>
+                <p class="contact__txt">The company phone</p>
+            </div>
+            <div class="contact__icon">
+                <i class="fas fa-mail-bulk"></i>
+                <p class="contact__txt">The company mail</p>
+            </div>
+        </div>
+        <p class="copy">2021 Room Design. All Rights Reserved | Design by <strong class="color-span">W3layouts</strong></p>
+    </footer>
 </body>
 <script src="js/menu.js"></script>
 </html>
